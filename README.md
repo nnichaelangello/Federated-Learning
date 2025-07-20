@@ -10,7 +10,7 @@ Sistem ini menggunakan **Broad Learning System (BLS)** untuk memperkaya fitur da
 
 ## Dataset
 
-- **Fitur**: `nilai_mtk_sma`, `nilai_ipa_sma`, `nilai_fisika_sma`, `nilai_bahasa_indonesia_sma`, `nilai_bahasa_inggris_sma`, `semester_sekarang`, `ipk_sekarang`.
+- **Fitur**: `nilai_mtk_sma`, `nilai_ipa_sma`, `nilai_fisika_sma`, `nilai_bahasa_indonesia_sma`, `nilai_bahasa_inggris_sma`, `sma_asal`, `semester_sekarang`, `ipk_sekarang`.
 - **Target**: `jurusan_kuliah_sekarang` (kategori jurusan kuliah).
 - **Preprocessing**:
   - Membuat fitur turunan seperti rata-rata nilai SMA, interaksi antar fitur (misalnya, `mtk_ipa_interaction`), rasio (misalnya, `mtk_fisika_ratio`), dan fitur kuadratik.
